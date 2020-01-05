@@ -1,0 +1,11 @@
+ADVANTAGES.
+1.Open source
+2.Allows applications build with different languages,OS and platforms to integrate with each other.
+3.Location Transparency-Client applications doesnt need to know where the server appliation are located.
+4.Reliable Communications-Both the client and thee server need not to be available at the same time.(due to the queues)
+5.The size of the queueue is dynamic(variable sized queues)
+6.Less time consumption-Due to the asynchronous communication,instead waiting till the server sends a response-client can carry con the next set of operations.
+7.Reduced coupling-The information(such as location,protocol and availability) of the service can be changed easily withour effecting the client.
+8.Easy coding.(ActiveMQ uses JAVA where others use Erlang)
+
+DISADVANTAGES.
